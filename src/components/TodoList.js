@@ -5,7 +5,7 @@ import Todo from "./Todo";
 function TodoList({ todos, removeTodo, toggleComplete }) {
   return (
     <List>
-      {todos.map(todo => (
+      {todos.map((todo) => (
         <Todo
           key={todo.id}
           todo={todo}
